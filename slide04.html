@@ -29,158 +29,154 @@
     </style>
 </head>
 <body>
-<div class="slide-container p-8">
+<div class="slide-container p-6">
 <!-- Header Section -->
-<div class="flex items-center justify-between mb-6 pb-4 border-b border-gray-100">
-<div class="flex items-center">
-<div class="bg-red-600 text-white font-extrabold rounded-md px-4 py-2 text-sm uppercase tracking-wider mr-4 shadow-md">
-                Hallazgo #01
-            </div>
-<div class="flex flex-col">
-<h1 class="text-3xl font-extrabold text-slate-800 leading-tight">
-                    Inventarios: Medicamentos
-                </h1>
-<p class="text-slate-500 font-medium text-sm mt-1">Análisis de Riesgos y Plan de Acción</p>
+<div class="flex items-center justify-between mb-3 pb-2 border-b border-gray-200 gap-4">
+<div class="flex items-center gap-4 min-w-0">
+<div class="bg-gray-700 text-white font-bold rounded px-4 py-1 text-xs uppercase tracking-wider shadow-sm">Hallazgo #01</div>
+<div class="min-w-0">
+<h1 class="text-2xl font-extrabold text-gray-800 leading-tight">Inventarios: Medicamentos</h1>
+<p class="text-sm text-gray-500 font-medium">Informe de Revisoría Fiscal 2025 | Sede Pereira</p>
 </div>
 </div>
-<div class="flex items-center space-x-3 bg-red-50 px-4 py-2 rounded-lg border border-red-100">
-<i class="fa-solid fa-triangle-exclamation text-red-600 text-lg"></i>
-<div class="flex flex-col items-end">
-<span class="text-xs text-red-400 font-bold uppercase tracking-wider">Nivel de Riesgo</span>
-<span class="text-lg font-black text-red-700 leading-none">ALTO</span>
+<div class="inline-flex items-center gap-3 bg-red-100 border border-red-200 text-red-700 px-3 py-1.5 rounded-lg shadow-sm">
+<i class="fa-solid fa-triangle-exclamation text-red-600"></i>
+<div class="leading-tight">
+<p class="text-[10px] font-bold uppercase tracking-wider opacity-80">Nivel de Riesgo</p>
+<p class="text-sm font-extrabold">ALTO</p>
 </div>
 </div>
 </div>
 <!-- Main Content Grid -->
-<div class="flex gap-6 h-full overflow-hidden pb-2">
+<div class="flex gap-4 flex-1 min-h-0 overflow-hidden pb-1">
 <!-- Left Column: Risks (Red Theme) -->
-<div class="w-5/12 bg-risk-col p-5 flex flex-col relative overflow-hidden">
+<div class="w-5/12 bg-risk-col p-3.5 flex flex-col relative overflow-hidden">
 <!-- Decorative circle -->
 <div class="absolute -top-10 -right-10 w-32 h-32 bg-red-100 rounded-full opacity-50 z-0"></div>
-<div class="relative z-10 flex items-center mb-5 text-red-700 border-b border-red-200 pb-2">
-<div class="icon-box bg-red-200 mr-3 text-red-700 shadow-sm">
+<div class="relative z-10 flex items-center mb-2 text-red-700 border-b border-red-200 pb-1.5">
+<div class="icon-box bg-red-200 mr-2 text-red-700 shadow-sm">
 <i class="fa-solid fa-bug text-lg"></i>
 </div>
-<h2 class="text-xl font-bold uppercase tracking-wide">Riesgos</h2>
+<h2 class="text-base font-bold uppercase tracking-wide">Riesgos</h2>
 </div>
-<div class="space-y-3 relative z-10 overflow-y-auto pr-2 custom-scrollbar flex-1">
+<div class="relative z-10 flex-1">
 <!-- Risk Cards -->
-<div class="bg-white p-3 rounded-lg card-pop flex items-start border-l-4 border-red-500">
+<div class="bg-white p-2 rounded-lg card-pop flex items-start border-l-4 border-red-500 mb-5">
 <div class="mt-1 mr-3 min-w-[24px] text-center"><i class="fa-solid fa-ban text-red-500 text-lg"></i></div>
 <div>
-<h3 class="text-sm font-bold text-slate-800">Consumos no autorizados</h3>
-<p class="text-xs text-slate-500 mt-1 leading-snug">Falta de trazabilidad en la salida física de medicamentos.</p>
+<h3 class="text-s font-bold text-gray-800 leading-tight">Consumos no autorizados</h3>
+<p class="text-[10px] text-gray-500 leading-tight">Falta de trazabilidad en la salida física de medicamentos.</p>
 </div>
 </div>
-<div class="bg-white p-3 rounded-lg card-pop flex items-start border-l-4 border-red-500">
+<div class="bg-white p-2 rounded-lg card-pop flex items-start border-l-4 border-red-500 mb-5">
 <div class="mt-1 mr-3 min-w-[24px] text-center"><i class="fa-solid fa-chart-line text-red-500 text-lg"></i></div>
 <div>
-<h3 class="text-sm font-bold text-slate-800">Distorsión financiera</h3>
-<p class="text-xs text-slate-500 mt-1 leading-snug">Afectación directa al costo de ventas y promedio ponderado.</p>
+<h3 class="text-s font-bold text-gray-800 leading-tight">Distorsión financiera</h3>
+<p class="text-[10px] text-gray-500 leading-tight">Afectación directa al costo de ventas y promedio ponderado.</p>
 </div>
 </div>
-<div class="bg-white p-3 rounded-lg card-pop flex items-start border-l-4 border-red-500">
+<div class="bg-white p-2 rounded-lg card-pop flex items-start border-l-4 border-red-500 mb-5">
 <div class="mt-1 mr-3 min-w-[24px] text-center"><i class="fa-solid fa-user-lock text-red-500 text-lg"></i></div>
 <div>
-<h3 class="text-sm font-bold text-slate-800">Fraude o pérdida</h3>
-<p class="text-xs text-slate-500 mt-1 leading-snug">Inventarios vulnerables por falta de controles de entrada/salida.</p>
+<h3 class="text-s font-bold text-gray-800 leading-tight">Fraude o pérdida</h3>
+<p class="text-[10px] text-gray-500 leading-tight">Inventarios vulnerables por falta de controles de entrada/salida.</p>
 </div>
 </div>
-<div class="bg-white p-3 rounded-lg card-pop flex items-start border-l-4 border-red-500">
+<div class="bg-white p-2 rounded-lg card-pop flex items-start border-l-4 border-red-500 mb-5">
 <div class="mt-1 mr-3 min-w-[24px] text-center"><i class="fa-solid fa-file-invoice-dollar text-red-500 text-lg"></i></div>
 <div>
-<h3 class="text-sm font-bold text-slate-800">Errores fiscales (DIAN)</h3>
-<p class="text-xs text-slate-500 mt-1 leading-snug">Inconsistencias críticas en reporte de información exógena.</p>
+<h3 class="text-s font-bold text-gray-800 leading-tight">Errores fiscales (DIAN)</h3>
+<p class="text-[10px] text-gray-500 leading-tight">Inconsistencias críticas en reporte de información exógena.</p>
 </div>
 </div>
-<div class="bg-white p-3 rounded-lg card-pop flex items-start border-l-4 border-red-500">
+<div class="bg-white p-2 rounded-lg card-pop flex items-start border-l-4 border-red-500 mb-5">
 <div class="mt-1 mr-3 min-w-[24px] text-center"><i class="fa-solid fa-hand-holding-dollar text-red-500 text-lg"></i></div>
 <div>
-<h3 class="text-sm font-bold text-slate-800">Ajustes discrecionales</h3>
-<p class="text-xs text-slate-500 mt-1 leading-snug">Modificaciones manuales sin soporte operativo válido.</p>
+<h3 class="text-s font-bold text-gray-800 leading-tight">Ajustes discrecionales</h3>
+<p class="text-[10px] text-gray-500 leading-tight">Modificaciones manuales sin soporte operativo válido.</p>
 </div>
 </div>
-<div class="bg-white p-3 rounded-lg card-pop flex items-start border-l-4 border-red-500">
+<div class="bg-white p-2 rounded-lg card-pop flex items-start border-l-4 border-red-500 mb-5">
 <div class="mt-1 mr-3 min-w-[24px] text-center"><i class="fa-solid fa-link-slash text-red-500 text-lg"></i></div>
 <div>
-<h3 class="text-sm font-bold text-slate-800">Debilidad de Control</h3>
-<p class="text-xs text-slate-500 mt-1 leading-snug">Afecta transversalmente compras, almacenamiento y consumo.</p>
+<h3 class="text-s font-bold text-gray-800 leading-tight">Debilidad de Control</h3>
+<p class="text-[10px] text-gray-500 leading-tight">Afecta transversalmente compras, almacenamiento y consumo.</p>
 </div>
 </div>
 </div>
 </div>
 <!-- Right Column: Recommendations (Green/Blue Theme) -->
-<div class="w-7/12 bg-recom-col p-5 flex flex-col relative overflow-hidden">
+<div class="w-7/12 bg-recom-col p-4 flex flex-col relative overflow-hidden">
 <!-- Decorative circle -->
 <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-emerald-100 rounded-full opacity-50 z-0"></div>
-<div class="relative z-10 flex items-center mb-5 text-emerald-700 border-b border-emerald-200 pb-2">
+<div class="relative z-10 flex items-center mb-3 text-emerald-700 border-b border-emerald-200 pb-2">
 <div class="icon-box bg-emerald-200 mr-3 text-emerald-700 shadow-sm">
 <i class="fa-solid fa-clipboard-check text-lg"></i>
 </div>
-<h2 class="text-xl font-bold uppercase tracking-wide">Recomendaciones</h2>
+<h2 class="text-lg font-bold uppercase tracking-wide">Recomendaciones</h2>
 </div>
 <div class="relative z-10 flex flex-col h-full">
 <!-- Grid of operational recommendations -->
-<div class="grid grid-cols-2 gap-4 mb-6">
-<div class="bg-white p-4 rounded-lg shadow-sm border border-emerald-100 hover:shadow-md transition-shadow">
+<div class="grid grid-cols-2 gap-3 mb-4">
+<div class="bg-white p-3 rounded-lg shadow-sm border border-emerald-100 hover:shadow-md transition-shadow">
 <div class="flex items-center mb-2">
 <i class="fa-solid fa-1 text-emerald-500 mr-2 text-lg font-black opacity-30"></i>
 <h3 class="text-sm font-bold text-emerald-900">Ingreso Obligatorio</h3>
 </div>
-<p class="text-xs text-slate-600">Toda compra debe entrar al módulo de inventarios antes del registro contable.</p>
+<p class="text-xs text-gray-600">Toda compra debe entrar al módulo de inventarios antes del registro contable.</p>
 </div>
-<div class="bg-white p-4 rounded-lg shadow-sm border border-emerald-100 hover:shadow-md transition-shadow">
+<div class="bg-white p-3 rounded-lg shadow-sm border border-emerald-100 hover:shadow-md transition-shadow">
 <div class="flex items-center mb-2">
 <i class="fa-solid fa-2 text-emerald-500 mr-2 text-lg font-black opacity-30"></i>
 <h3 class="text-sm font-bold text-emerald-900">Validación Almacén</h3>
 </div>
-<p class="text-xs text-slate-600">Requisito indispensable previo a la autorización de pagos.</p>
+<p class="text-xs text-gray-600">Requisito indispensable previo a la autorización de pagos.</p>
 </div>
-<div class="bg-white p-4 rounded-lg shadow-sm border border-emerald-100 hover:shadow-md transition-shadow">
+<div class="bg-white p-3 rounded-lg shadow-sm border border-emerald-100 hover:shadow-md transition-shadow">
 <div class="flex items-center mb-2">
 <i class="fa-solid fa-3 text-emerald-500 mr-2 text-lg font-black opacity-30"></i>
 <h3 class="text-sm font-bold text-emerald-900">Segregación</h3>
 </div>
-<p class="text-xs text-slate-600">Separación clara de funciones entre compras, almacén y tesorería.</p>
+<p class="text-xs text-gray-600">Separación clara de funciones entre compras, almacén y tesorería.</p>
 </div>
-<div class="bg-white p-4 rounded-lg shadow-sm border border-emerald-100 hover:shadow-md transition-shadow">
+<div class="bg-white p-3 rounded-lg shadow-sm border border-emerald-100 hover:shadow-md transition-shadow">
 <div class="flex items-center mb-2">
 <i class="fa-solid fa-4 text-emerald-500 mr-2 text-lg font-black opacity-30"></i>
 <h3 class="text-sm font-bold text-emerald-900">Módulo Logístico</h3>
 </div>
-<p class="text-xs text-slate-600">Registrar movimientos exclusivamente desde el módulo operativo.</p>
+<p class="text-xs text-gray-600">Registrar movimientos exclusivamente desde el módulo operativo.</p>
 </div>
-<div class="bg-white p-4 rounded-lg shadow-sm border border-emerald-100 hover:shadow-md transition-shadow">
+<div class="bg-white p-3 rounded-lg shadow-sm border border-emerald-100 hover:shadow-md transition-shadow">
 <div class="flex items-center mb-2">
 <i class="fa-solid fa-5 text-emerald-500 mr-2 text-lg font-black opacity-30"></i>
 <h3 class="text-sm font-bold text-emerald-900">Autorizaciones</h3>
 </div>
-<p class="text-xs text-slate-600">Establecer flujo formal para aprobar ajustes extraordinarios.</p>
+<p class="text-xs text-gray-600">Establecer flujo formal para aprobar ajustes extraordinarios.</p>
 </div>
-<div class="bg-white p-4 rounded-lg shadow-sm border border-emerald-100 hover:shadow-md transition-shadow">
+<div class="bg-white p-3 rounded-lg shadow-sm border border-emerald-100 hover:shadow-md transition-shadow">
 <div class="flex items-center mb-2">
 <i class="fa-solid fa-6 text-emerald-500 mr-2 text-lg font-black opacity-30"></i>
 <h3 class="text-sm font-bold text-emerald-900">Conciliación</h3>
 </div>
-<p class="text-xs text-slate-600">Cruce mensual obligatorio entre inventarios y contabilidad.</p>
+<p class="text-xs text-gray-600">Cruce mensual obligatorio entre inventarios y contabilidad.</p>
 </div>
 </div>
 <!-- Structural Recommendation -->
-<div class="bg-white rounded-lg p-4 border-l-4 border-blue-500 shadow-md mt-auto">
-<div class="flex items-center mb-3">
+<div class="bg-white rounded-lg p-3 border-l-4 border-blue-500 shadow-md">
+<div class="flex items-center mb-2">
 <div class="bg-blue-100 p-2 rounded-full mr-3 text-blue-600 shadow-inner">
 <i class="fa-solid fa-network-wired"></i>
 </div>
 <h3 class="font-bold text-blue-900 text-sm uppercase">Recomendación Estructural</h3>
 </div>
-<div class="flex gap-4">
-<div class="flex-1 bg-blue-50 p-3 rounded border border-blue-100">
-<p class="text-xs font-bold text-blue-800 mb-1"><i class="fa-solid fa-gears mr-1"></i> Parametrización</p>
-<p class="text-xs text-slate-600">Configurar sistema para impedir registros contables manuales sin soporte.</p>
+<div class="flex gap-3">
+<div class="flex-1 bg-blue-50 p-2.5 rounded border border-blue-100">
+<p class="text-s font-bold text-blue-800 mb-1"><i class="fa-solid fa-gears mr-1"></i> Parametrización</p>
+<p class="text-s text-gray-600">Configurar sistema para impedir registros contables manuales sin soporte.</p>
 </div>
-<div class="flex-1 bg-blue-50 p-3 rounded border border-blue-100">
-<p class="text-xs font-bold text-blue-800 mb-1"><i class="fa-solid fa-magnifying-glass-chart mr-1"></i> Evaluación ERP</p>
-<p class="text-xs text-slate-600">Considerar implementación de software que garantice trazabilidad total.</p>
+<div class="flex-1 bg-blue-50 p-2.5 rounded border border-blue-100">
+<p class="text-s font-bold text-blue-800 mb-1"><i class="fa-solid fa-magnifying-glass-chart mr-1"></i> Evaluación ERP</p>
+<p class="text-s text-gray-600">Considerar implementación de software que garantice trazabilidad total.</p>
 </div>
 </div>
 </div>
@@ -188,19 +184,16 @@
 </div>
 </div>
 <!-- Footer -->
-<div class="mt-auto pt-4 border-t border-gray-200 flex justify-between items-center">
-<div class="flex items-center bg-slate-50 rounded-full px-4 py-1 border border-slate-100">
-<i class="fa-solid fa-book-open text-slate-400 mr-2"></i>
-<span class="text-xs font-bold text-slate-500 uppercase mr-3">Marco Técnico:</span>
-<div class="flex space-x-2">
-<span class="text-xs text-slate-600 font-medium bg-white px-2 py-0.5 rounded shadow-sm border border-slate-200">NIA 315</span>
-<span class="text-xs text-slate-600 font-medium bg-white px-2 py-0.5 rounded shadow-sm border border-slate-200">NIA 330</span>
-<span class="text-xs text-slate-600 font-medium bg-white px-2 py-0.5 rounded shadow-sm border border-slate-200">NIA 240</span>
+<div class="mt-auto pt-3 border-t border-gray-200 flex justify-between items-center text-xs text-gray-500">
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-building text-gray-400"></i>
+<p>Soluciones de Medicina Reproductiva S.A.S.</p>
 </div>
+<div class="flex items-center gap-3">
+<span>Informe de Revisoría Fiscal 2025</span>
+<span class="w-px h-3 bg-gray-300"></span>
+<span class="font-bold text-gray-600">Página 4</span>
 </div>
-<div class="text-xs text-slate-400 font-semibold">
-            Página 4
-        </div>
 </div>
 </div>
 </body>

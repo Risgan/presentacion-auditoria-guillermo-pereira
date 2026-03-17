@@ -20,21 +20,20 @@
 <body>
 <div class="slide-container p-12">
 <!-- Header -->
-<div class="flex items-center justify-between mb-10 border-b border-gray-200 pb-6">
-<div class="flex items-center">
-<div class="bg-gray-800 text-white font-bold rounded px-4 py-1 text-sm uppercase tracking-wide mr-5 shadow-sm">
-                    Hallazgo #05
-                </div>
+<div class="flex items-center justify-between mb-6 border-b border-gray-200 pb-4 gap-5">
+<div class="flex items-center gap-4 min-w-0">
+<div class="bg-gray-700 text-white font-bold rounded px-4 py-1 text-xs uppercase tracking-wider shadow-sm">Hallazgo #05</div>
+<div class="min-w-0">
+<h1 class="text-3xl font-extrabold text-navy">Caja y Bancos</h1>
+<p class="text-sm text-gray-500 font-medium">Informe de Revisoría Fiscal 2025 | Sede Pereira</p>
+</div>
+</div>
+<div style="display: inline-flex; align-items: center; gap: 12px; background-color: #f0fdf4; border: 1px solid #d1fae5; color: #065f46; padding: 8px 16px; border-radius: 8px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);">
+<i class="fa-solid fa-shield-halved" style="color: #059669; font-size: 18px;"></i>
 <div>
-<h1 class="text-3xl font-extrabold text-navy">
-                        Caja y Bancos <span class="text-gray-400 font-light text-2xl">| Reporte Consolidado</span>
-</h1>
+<p style="font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.05em; opacity: 0.8; margin: 0; color: #065f46;">Nivel de Riesgo</p>
+<p style="font-size: 14px; font-weight: 900; margin: 0; color: #065f46;">BAJO</p>
 </div>
-</div>
-<div class="flex items-center gap-3">
-<span class="px-4 py-2 bg-green-100 text-green-800 text-sm font-bold rounded-full border border-green-200 uppercase tracking-wide flex items-center shadow-sm">
-<i class="fa-solid fa-shield-halved mr-2"></i> Riesgo Bajo
-                </span>
 </div>
 </div>
 <!-- Main Content - 3 Block Layout -->
@@ -111,50 +110,58 @@
 <i class="fa-solid fa-clipboard-check text-lg"></i>
 </div>
 </div>
-<div class="p-8 flex-1 flex flex-col bg-emerald-50/30">
-<div class="space-y-5 my-auto">
-<div class="relative pl-8">
-<div class="absolute left-0 top-0 bottom-0 w-1 bg-emerald-300 rounded-full"></div>
-<div class="absolute left-[-6px] top-0 w-3 h-3 bg-emerald-500 rounded-full border-2 border-white"></div>
-<p class="font-bold text-navy text-lg mb-1">Verificar Origen</p>
-<p class="text-sm text-gray-600">
-                                Rastrear la transacción en extractos para confirmar la fuente.
-                            </p>
+<div class="p-8 flex-1 flex flex-col" style="background-color: #f0fdf4;">
+<div class="space-y-5" style="margin: auto 0;">
+<!-- Rec Item 1 -->
+<div style="display: flex; gap: 16px; align-items: flex-start;">
+<div style="width: 50px; height: 50px; background-color: #22c55e; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 24px; flex-shrink: 0;">
+<i class="fa-solid fa-magnifying-glass"></i>
 </div>
-<div class="relative pl-8">
-<div class="absolute left-0 top-0 bottom-0 w-1 bg-emerald-300 rounded-full"></div>
-<div class="absolute left-[-6px] top-0 w-3 h-3 bg-emerald-500 rounded-full border-2 border-white"></div>
-<p class="font-bold text-navy text-lg mb-1">Confirmar con Cliente</p>
-<p class="text-sm text-gray-600">
-                                Validar directamente con el tercero si se trató de un error operativo.
-                            </p>
-</div>
-<div class="relative pl-8">
-<div class="absolute left-0 top-0 bottom-0 w-1 bg-emerald-300 rounded-full"></div>
-<div class="absolute left-[-6px] top-0 w-3 h-3 bg-emerald-500 rounded-full border-2 border-white"></div>
-<p class="font-bold text-navy text-lg mb-1">Ajuste Contable</p>
-<p class="text-sm text-gray-600">
-                                Realizar la reclasificación pertinente o devolución de fondos.
-                            </p>
+<div style="background-color: #ffffff; padding: 16px; border-radius: 12px; border: 2px solid #22c55e; flex: 1; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+<p style="font-weight: bold; color: #065f46; font-size: 16px; margin: 0 0 8px 0;">🔍 Verificar Origen</p>
+<p style="font-size: 13px; color: #374151; margin: 0; line-height: 1.5;">
+Rastrear la transacción en extractos para confirmar la fuente.
+</p>
 </div>
 </div>
+<!-- Rec Item 2 -->
+<div style="display: flex; gap: 16px; align-items: flex-start;">
+<div style="width: 50px; height: 50px; background-color: #22c55e; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 24px; flex-shrink: 0;">
+<i class="fa-solid fa-handshake"></i>
+</div>
+<div style="background-color: #ffffff; padding: 16px; border-radius: 12px; border: 2px solid #22c55e; flex: 1; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+<p style="font-weight: bold; color: #065f46; font-size: 16px; margin: 0 0 8px 0;">🤝 Confirmar con Cliente</p>
+<p style="font-size: 13px; color: #374151; margin: 0; line-height: 1.5;">
+Validar directamente con el tercero si se trató de un error operativo.
+</p>
+</div>
+</div>
+<!-- Rec Item 3 -->
+<div style="display: flex; gap: 16px; align-items: flex-start;">
+<div style="width: 50px; height: 50px; background-color: #22c55e; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 24px; flex-shrink: 0;">
+<i class="fa-solid fa-receipt"></i>
+</div>
+<div style="background-color: #ffffff; padding: 16px; border-radius: 12px; border: 2px solid #22c55e; flex: 1; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+<p style="font-weight: bold; color: #065f46; font-size: 16px; margin: 0 0 8px 0;">📄 Ajuste Contable</p>
+<p style="font-size: 13px; color: #374151; margin: 0; line-height: 1.5;">
+Realizar la reclasificación pertinente o devolución de fondos.
+</p>
 </div>
 </div>
 </div>
-<!-- Footer Normative -->
-<div class="mt-auto pt-5 border-t border-gray-200 flex justify-between items-center">
-<div class="flex items-center space-x-3">
-<div class="bg-gray-100 p-2 rounded text-gray-400">
-<i class="fa-solid fa-book-open"></i>
-</div>
-<div>
-<p class="text-xs font-bold text-gray-500 uppercase tracking-wider">Marco Técnico Aplicado</p>
-<p class="text-sm font-bold text-navy">NIA 315 — Identificación de Riesgos</p>
 </div>
 </div>
-<div class="flex items-center text-xs text-gray-400 font-medium">
-<span class="mr-4">Soluciones de Medicina Reproductiva S.A.S.</span>
-<span class="px-2 py-1 bg-gray-100 rounded">Página 10</span>
+</div>
+<!-- Footer -->
+<div class="mt-auto pt-3 border-t border-gray-200 flex justify-between items-center text-xs text-gray-500">
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-building text-gray-400"></i>
+<p>Soluciones de Medicina Reproductiva S.A.S.</p>
+</div>
+<div class="flex items-center gap-3">
+<span>Informe de Revisoría Fiscal 2025</span>
+<span class="w-px h-3 bg-gray-300"></span>
+<span class="font-bold text-gray-600">Página 10</span>
 </div>
 </div>
 </div>

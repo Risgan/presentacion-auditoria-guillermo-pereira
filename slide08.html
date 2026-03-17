@@ -23,15 +23,20 @@
 <body>
 <div class="slide-container p-10">
 <!-- Header -->
-<div class="flex items-center mb-6 border-b border-gray-200 pb-4">
-<div class="bg-red-500 text-white font-bold rounded px-3 py-1 text-xs uppercase tracking-wide mr-4 shadow-sm">
-            Hallazgo #03
-        </div>
-<h1 class="text-2xl font-extrabold text-navy flex-1">
-            Sistemas RIPS y Datos Sensibles — <span class="text-gray-500 font-semibold">Análisis de Riesgos y Plan de Acción</span>
-</h1>
-<div class="flex space-x-2">
-<span class="px-3 py-1 bg-red-100 text-red-700 text-xs font-bold rounded-full border border-red-200 uppercase">Nivel de Riesgo: Alto</span>
+<div class="flex items-center justify-between mb-6 border-b border-gray-200 pb-4 gap-5">
+<div class="flex items-center gap-4 min-w-0">
+<div class="bg-gray-700 text-white font-bold rounded px-4 py-1 text-xs uppercase tracking-wider shadow-sm">Hallazgo #03</div>
+<div class="min-w-0">
+<h1 class="text-2xl font-extrabold text-navy">Sistemas RIPS y Datos Sensibles</h1>
+<p class="text-sm text-gray-500 font-medium">Informe de Revisoría Fiscal 2025 | Sede Pereira</p>
+</div>
+</div>
+<div class="inline-flex items-center gap-3 bg-red-100 border border-red-200 text-red-700 px-4 py-2 rounded-lg shadow-sm">
+<i class="fa-solid fa-triangle-exclamation text-red-600"></i>
+<div class="leading-tight">
+<p class="text-[10px] font-bold uppercase tracking-wider opacity-80">Nivel de Riesgo</p>
+<p class="text-sm font-extrabold">ALTO</p>
+</div>
 </div>
 </div>
 <!-- Main Content Grid -->
@@ -42,14 +47,14 @@
 <i class="fa-solid fa-triangle-exclamation mr-2 text-xl"></i>
 <h2 class="text-lg font-bold uppercase tracking-wide">Riesgos Identificados</h2>
 </div>
-<div class="space-y-3 flex-1 overflow-y-auto pr-2">
+<div class="flex-1 overflow-y-auto pr-2">
 <!-- Risk 1 -->
 <div class="risk-item p-3 rounded-r-lg">
 <div class="flex items-start">
 <i class="fa-solid fa-gavel text-red-500 mt-1 mr-3 text-sm"></i>
 <div>
-<p class="text-sm font-bold text-gray-800">Errores Regulatorios</p>
-<p class="text-xs text-gray-600 mt-0.5">Reportes incorrectos al Ministerio de Salud con posibles sanciones administrativas.</p>
+<p class="text-xm font-bold text-gray-800">Errores Regulatorios</p>
+<p class="text-s text-gray-600 mt-0.5">Reportes incorrectos al Ministerio de Salud con posibles sanciones administrativas.</p>
 </div>
 </div>
 </div>
@@ -58,8 +63,8 @@
 <div class="flex items-start">
 <i class="fa-solid fa-scale-unbalanced text-red-500 mt-1 mr-3 text-sm"></i>
 <div>
-<p class="text-sm font-bold text-gray-800">Riesgo Legal (Ley 1581)</p>
-<p class="text-xs text-gray-600 mt-0.5">Tratamiento inadecuado de datos sensibles en posible incumplimiento de Habeas Data.</p>
+<p class="text-xm font-bold text-gray-800">Riesgo Legal (Ley 1581)</p>
+<p class="text-s text-gray-600 mt-0.5">Tratamiento inadecuado de datos sensibles en posible incumplimiento de Habeas Data.</p>
 </div>
 </div>
 </div>
@@ -68,8 +73,8 @@
 <div class="flex items-start">
 <i class="fa-solid fa-server text-red-500 mt-1 mr-3 text-sm"></i>
 <div>
-<p class="text-sm font-bold text-gray-800">Exposición a Sanciones</p>
-<p class="text-xs text-gray-600 mt-0.5">Por transferencia y uso de información clínica en plataformas externas sin controles.</p>
+<p class="text-xm font-bold text-gray-800">Exposición a Sanciones</p>
+<p class="text-s text-gray-600 mt-0.5">Por transferencia y uso de información clínica en plataformas externas sin controles.</p>
 </div>
 </div>
 </div>
@@ -78,8 +83,8 @@
 <div class="flex items-start">
 <i class="fa-solid fa-shield-virus text-red-500 mt-1 mr-3 text-sm"></i>
 <div>
-<p class="text-sm font-bold text-gray-800">Debilidad de Control</p>
-<p class="text-xs text-gray-600 mt-0.5">Gestión crítica de información sensible fuera del entorno controlado (reproceso manual).</p>
+<p class="text-xm font-bold text-gray-800">Debilidad de Control</p>
+<p class="text-s text-gray-600 mt-0.5">Gestión crítica de información sensible fuera del entorno controlado (reproceso manual).</p>
 </div>
 </div>
 </div>
@@ -88,8 +93,8 @@
 <div class="flex items-start">
 <i class="fa-solid fa-user-injured text-red-500 mt-1 mr-3 text-sm"></i>
 <div>
-<p class="text-sm font-bold text-gray-800">Riesgo Reputacional</p>
-<p class="text-xs text-gray-600 mt-0.5">Eventuales incidentes de seguridad o filtración de datos de pacientes.</p>
+<p class="text-xm font-bold text-gray-800">Riesgo Reputacional</p>
+<p class="text-s text-gray-600 mt-0.5">Eventuales incidentes de seguridad o filtración de datos de pacientes.</p>
 </div>
 </div>
 </div>
@@ -104,32 +109,32 @@
 <!-- Operational Recommendations Grid -->
 <div class="grid grid-cols-2 gap-3 mb-6">
 <div class="recom-item p-3 rounded-r-lg">
-<p class="text-xs font-bold text-emerald-800 mb-1"><i class="fa-solid fa-check mr-1"></i> Restringir Plataformas</p>
+<p class="text-s font-bold text-emerald-800 mb-1"><i class="fa-solid fa-check mr-1"></i> Restringir Plataformas</p>
 <p class="text-xs text-gray-600 leading-snug">Limitar uso de externos para datos clínicos salvo cumplimiento total normativo.</p>
 </div>
 <div class="recom-item p-3 rounded-r-lg">
-<p class="text-xs font-bold text-emerald-800 mb-1"><i class="fa-solid fa-check mr-1"></i> Formalizar Contratos</p>
+<p class="text-s font-bold text-emerald-800 mb-1"><i class="fa-solid fa-check mr-1"></i> Formalizar Contratos</p>
 <p class="text-xs text-gray-600 leading-snug">Incluir cláusulas de responsabilidad y niveles de servicio en servicios tecnológicos.</p>
 </div>
 <div class="recom-item p-3 rounded-r-lg">
-<p class="text-xs font-bold text-emerald-800 mb-1"><i class="fa-solid fa-check mr-1"></i> Protección de Datos</p>
+<p class="text-s font-bold text-emerald-800 mb-1"><i class="fa-solid fa-check mr-1"></i> Protección de Datos</p>
 <p class="text-xs text-gray-600 leading-snug">Firmar acuerdos de encargado del tratamiento de datos personales.</p>
 </div>
 <div class="recom-item p-3 rounded-r-lg">
-<p class="text-xs font-bold text-emerald-800 mb-1"><i class="fa-solid fa-check mr-1"></i> Auditoría y Trazabilidad</p>
+<p class="text-s font-bold text-emerald-800 mb-1"><i class="fa-solid fa-check mr-1"></i> Auditoría y Trazabilidad</p>
 <p class="text-xs text-gray-600 leading-snug">Controles sobre acceso, uso y transmisión de datos sensibles.</p>
 </div>
 <div class="recom-item p-3 rounded-r-lg">
-<p class="text-xs font-bold text-emerald-800 mb-1"><i class="fa-solid fa-check mr-1"></i> Políticas de Seguridad</p>
+<p class="text-s font-bold text-emerald-800 mb-1"><i class="fa-solid fa-check mr-1"></i> Políticas de Seguridad</p>
 <p class="text-xs text-gray-600 leading-snug">Fortalecer normatividad interna sobre manejo de información.</p>
 </div>
 <div class="recom-item p-3 rounded-r-lg">
-<p class="text-xs font-bold text-emerald-800 mb-1"><i class="fa-solid fa-check mr-1"></i> Confidencialidad</p>
+<p class="text-s font-bold text-emerald-800 mb-1"><i class="fa-solid fa-check mr-1"></i> Confidencialidad</p>
 <p class="text-xs text-gray-600 leading-snug">Implementar acuerdos de confidencialidad estrictos con terceros.</p>
 </div>
 </div>
 <!-- Structural Recommendation Box -->
-<div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-auto">
+<div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
 <div class="flex items-center mb-2">
 <div class="bg-blue-100 p-2 rounded-full mr-3 text-blue-600">
 <i class="fa-solid fa-network-wired"></i>
@@ -138,23 +143,24 @@
 </div>
 <div class="flex gap-4">
 <div class="flex-1 bg-white p-3 rounded border border-blue-100 shadow-sm">
-<p class="text-xs font-bold text-gray-700 mb-1">Solución Integrada RIPS</p>
-<p class="text-xs text-gray-500">Implementar tecnología para generación y transmisión automática (JSON) sin manipulación manual.</p>
+<p class="text-s font-bold text-gray-700 mb-1">Solución Integrada RIPS</p>
+<p class="text-s text-gray-500">Implementar tecnología para generación y transmisión automática (JSON) sin manipulación manual.</p>
 </div>
 </div>
 </div>
 </div>
 </div>
-<!-- Footer Normative -->
-<div class="mt-auto pt-4 border-t border-gray-100 flex justify-between items-center">
-<div class="flex items-center space-x-2">
-<i class="fa-solid fa-book text-gray-400"></i>
-<span class="text-xs font-bold text-gray-500 uppercase">Marco Técnico Aplicado:</span>
-<span class="text-xs text-gray-600 bg-gray-100 px-2 py-0.5 rounded">NIA 315</span>
-<span class="text-xs text-gray-600 bg-gray-100 px-2 py-0.5 rounded">NIA 402</span>
-<span class="text-xs text-gray-600 bg-gray-100 px-2 py-0.5 rounded">NIA 250</span>
+<!-- Footer -->
+<div class="mt-auto pt-3 border-t border-gray-200 flex justify-between items-center text-xs text-gray-500">
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-building text-gray-400"></i>
+<p>Soluciones de Medicina Reproductiva S.A.S.</p>
 </div>
-<p class="text-xs font-bold text-gray-400">Página 8</p>
+<div class="flex items-center gap-3">
+<span>Informe de Revisoría Fiscal 2025</span>
+<span class="w-px h-3 bg-gray-300"></span>
+<span class="font-bold text-gray-600">Página 8</span>
+</div>
 </div>
 </div>
 </body>

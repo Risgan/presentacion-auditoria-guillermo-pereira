@@ -19,22 +19,29 @@
     </style>
 </head>
 <body>
-<div class="slide-container p-12">
+<div class="slide-container p-10">
 <!-- Header -->
-<div class="flex items-center mb-8 border-b border-gray-200 pb-5">
-<div class="bg-red-600 text-white font-bold rounded px-4 py-1 text-sm uppercase tracking-wide mr-5 shadow-sm">
-            Hallazgo #03
-        </div>
-<h1 class="text-3xl font-extrabold text-navy flex-1">
-            Sistemas de Información y Reporte RIPS
-        </h1>
-<div class="text-gray-400 font-medium text-sm bg-gray-100 px-3 py-1 rounded">Sede Pereira</div>
+<div class="flex items-center justify-between mb-6 border-b border-gray-200 pb-4 gap-5">
+<div class="flex items-center gap-4 min-w-0">
+<div class="bg-gray-700 text-white font-bold rounded px-4 py-1 text-xs uppercase tracking-wider shadow-sm">Hallazgo #03</div>
+<div class="min-w-0">
+<h1 class="text-3xl font-extrabold text-navy flex-1">Sistemas de Información y Reporte RIPS</h1>
+<p class="text-sm text-gray-500 font-medium">Informe de Revisoría Fiscal 2025 | Sede Pereira</p>
 </div>
-<div class="flex flex-row gap-12 h-full">
+</div>
+<div class="inline-flex items-center gap-3 bg-red-100 border border-red-200 text-red-700 px-4 py-2 rounded-lg shadow-sm">
+<i class="fa-solid fa-triangle-exclamation text-red-600"></i>
+<div class="leading-tight">
+<p class="text-[10px] font-bold uppercase tracking-wider opacity-80">Nivel de Riesgo</p>
+<p class="text-sm font-extrabold">ALTO</p>
+</div>
+</div>
+</div>
+<div class="flex flex-row gap-10 h-full">
 <!-- Left Column: Key Visuals -->
-<div class="w-1/3 flex flex-col gap-6 pt-2">
+<div class="w-1/3 flex flex-col gap-4 pt-1">
 <!-- Card 1 -->
-<div class="stat-card bg-red-50 border-red-500 p-6 rounded-r-xl shadow-sm">
+<div class="stat-card bg-red-50 border-red-500 p-5 rounded-r-xl shadow-sm">
 <div class="flex justify-between items-start mb-3">
 <div class="bg-white w-10 h-10 flex items-center justify-center rounded-full shadow text-red-500">
 <i class="fa-solid fa-server text-lg"></i>
@@ -49,7 +56,7 @@
                 </p>
 </div>
 <!-- Card 2 -->
-<div class="stat-card bg-orange-50 border-orange-500 p-6 rounded-r-xl shadow-sm">
+<div class="stat-card bg-orange-50 border-orange-500 p-5 rounded-r-xl shadow-sm">
 <div class="flex justify-between items-start mb-3">
 <div class="bg-white w-10 h-10 flex items-center justify-center rounded-full shadow text-orange-500">
 <i class="fa-solid fa-file-signature text-lg"></i>
@@ -64,7 +71,7 @@
                 </p>
 </div>
 <!-- System Weakness Note -->
-<div class="mt-auto mb-8 bg-gray-50 p-4 rounded-lg border border-gray-200 flex items-start gap-3">
+<div class="mt-2 bg-gray-50 p-3 rounded-lg border border-gray-200 flex items-start gap-3">
 <i class="fa-solid fa-triangle-exclamation text-red-500 text-xl mt-1"></i>
 <div>
 <p class="text-xs font-bold text-gray-500 uppercase mb-1">Riesgo Crítico</p>
@@ -73,11 +80,11 @@
 </div>
 </div>
 <!-- Right Column: Narrative Description -->
-<div class="w-2/3 pl-4 pt-2">
-<h3 class="text-xl font-bold text-navy mb-8 border-b-2 border-blue-500 pb-2 inline-block">
+<div class="w-2/3 pl-2 pt-1">
+<h3 class="text-xl font-bold text-navy mb-6 border-b-2 border-blue-500 pb-2 inline-block">
                 Descripción de la Situación
             </h3>
-<div class="space-y-8 pr-8">
+<div class="space-y-6 pr-6">
 <div class="flex items-start group">
 <div class="mr-5 text-blue-500 mt-1 bg-blue-50 w-10 h-10 rounded-lg flex items-center justify-center group-hover:bg-blue-500 group-hover:text-white transition-colors duration-300">
 <i class="fa-solid fa-laptop-code text-lg"></i>
@@ -115,12 +122,16 @@
 </div>
 </div>
 <!-- Footer -->
-<div class="absolute bottom-6 w-full pr-24 flex justify-between items-center border-t border-gray-100 pt-4">
-<div class="flex items-center text-xs text-gray-400">
-<i class="fa-solid fa-building mr-2"></i>
-            Soluciones de Medicina Reproductiva S.A.S.
-         </div>
-<p class="text-xs font-bold text-gray-400">Página 7</p>
+<div class="mt-auto pt-3 flex justify-between items-center border-t border-gray-200 text-xs text-gray-500">
+<div class="flex items-center gap-2">
+<i class="fa-solid fa-building text-gray-400"></i>
+<p>Soluciones de Medicina Reproductiva S.A.S.</p>
+</div>
+<div class="flex items-center gap-3">
+<span>Informe de Revisoría Fiscal 2025</span>
+<span class="w-px h-3 bg-gray-300"></span>
+<span class="font-bold text-gray-600">Página 7</span>
+</div>
 </div>
 </div>
 </body>
